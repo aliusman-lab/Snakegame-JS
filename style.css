@@ -2,8 +2,8 @@
     --bg-primary: #0a0a0a;
     --text-primary: #eeeeee;
     --border-color: #333;
-    --snake-color: #4ade80;
-    --food-color: #f87171;
+    --snake-color: #e44c26;
+    --food-color: #ebb70e;
     
     /* Spacing */
     --space-md: 16px;
@@ -115,19 +115,19 @@ section .infos {
     display: grid;
     border: 1px solid var(--border-primary-color);
     /* Min-max ensures no gaps at the edges */
-    grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(30px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(45px, 1fr));
 }
 
 .block {
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
     border: 0.1px solid #111;
 }
 
 .fill { 
     background-color: var(--snake-color); 
-    border-radius: 50%; /* Making snake round */
+     /* Making snake round */
 }
 
 .food { 
